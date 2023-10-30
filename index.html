@@ -48,8 +48,8 @@
              gl.linkProgram(prog);
              gl.useProgram(prog);
              
-             
              //load vertex data into buffer
+	         //vertices for 2d geometry (lines)
              var vertices = new Float32Array(
 				 [0,0,
 				 0.8,-0.8,
@@ -59,7 +59,7 @@
 				 3.5,1.6,
 				 1,0.75,
 				 0,0,
-				 3,0.95,
+				 3,1,
 				 0,0,
 				 0.4, 0.3,
 				 0.2, 0.5,
